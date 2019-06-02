@@ -1,0 +1,14 @@
+waterpoints:
+  title: Water Points
+  column_types: waterpoints/column_types.json
+  processing_module: waterpoints/process.py
+  config:
+    key-fields:
+      - location:country-name
+poi:
+  title: Points Of Interest
+  column_types: poi/column_types.json
+  processing_module: poi/process.py
+  config:
+    key-fields:
+      - info:kind

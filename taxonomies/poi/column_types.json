@@ -1,0 +1,84 @@
+[
+    {
+        "name": "location:latlon",
+        "title": "Latitude & Longitude",
+        "description": "POI Coordinates - Latitude, Longitude",
+        "dataType": "string"
+    },
+    {
+        "name": "location:lon",
+        "title": "Longitude",
+        "description": "POI Coordinates - Longitude",
+        "dataType": "number"
+    },
+    {
+        "name": "location:lat",
+        "title": "Latitude",
+        "description": "POI Coordinates - Latitude",
+        "dataType": "number"
+    },
+    {
+        "name": "info:name",
+        "title": "Name",
+        "description": "Name of the POI",
+        "dataType": "string",
+        "unique": true,
+        "mandatory": true
+    },
+    {
+        "name": "info:kind",
+        "title": "Kind",
+        "description": "Kind of the POI",
+        "dataType": "string",
+        "unique": true,
+        "mandatory": true
+    },
+    {
+        "name": "location:geojson",
+        "title": "GeoJson",
+        "description": "Water Point Coordinates - GeoJson object",
+        "dataType": "object"
+    },
+    {
+        "name": "location:country-name",
+        "title": "Country",
+        "description": "Country Name",
+        "dataType": "string"
+    },
+    {
+        "name": "location:city-name",
+        "title": "City",
+        "description": "City Name",
+        "dataType": "string"
+    },
+    {
+        "name": "location:region-name",
+        "title": "Region",
+        "description": "Region Name",
+        "dataType": "string"
+    },
+    {
+        "name": "location:borough-name",
+        "title": "Borough",
+        "description": "Borough Name",
+        "dataType": "string"
+    },
+    {
+        "name": "location:street-name",
+        "title": "Street",
+        "description": "Street Name",
+        "dataType": "string"
+    },
+    {
+        "name": "location:street-number",
+        "title": "Street Number",
+        "description": "Street Number",
+        "dataType": "string"
+    },
+    {
+        "name": "location:address",
+        "title": "Full Address",
+        "description": "Full Address",
+        "dataType": "string"
+    }
+]

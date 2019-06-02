@@ -1,0 +1,55 @@
+[
+    {
+        "name": "location:lon",
+        "title": "Longitude",
+        "description": "Water Point Coordinates - Longitude",
+        "dataType": "number",
+        "unique": true,
+        "mandatory": true
+    },
+    {
+        "name": "location:lat",
+        "title": "Latitude",
+        "description": "Water Point Coordinates - Latitude",
+        "dataType": "number",
+        "unique": true,
+        "mandatory": true
+    },
+    {
+        "name": "location:geojson",
+        "title": "GeoJson",
+        "description": "Water Point Coordinates - GeoJson object",
+        "dataType": "object"
+    },
+    {
+        "name": "location:country-name",
+        "title": "Country",
+        "description": "Country Name",
+        "dataType": "string",
+        "mandatory": true
+    },
+    {
+        "name": "info:maker",
+        "title": "Technology",
+        "description": "Technology kind or maker",
+        "dataType": "string"
+    },
+    {
+        "name": "status:active",
+        "title": "Active",
+        "description": "Is the waterpoint active?",
+        "dataType": "string"
+    },
+    {
+        "name": "status:report-date",
+        "title": "Report Date",
+        "description": "When was this reported?",
+        "dataType": "string"
+    },
+    {
+        "name": "info:install_year",
+        "title": "Installation Year",
+        "description": "Year it was installed",
+        "dataType": "integer"
+    }
+]

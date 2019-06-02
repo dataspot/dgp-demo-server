@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+
+  dgp-ui:
+    build: dgp-ui
+    image: akariv/dgp-ui
+    environment:
+      PORT: 8000
+      BACKEND: server:8000
+    ports:
+      - 8000:8000
+
+  server:
+    build: .
+    image: hasadna/datacity-server
+    expose:
+      - 8000
